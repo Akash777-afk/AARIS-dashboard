@@ -1,0 +1,295 @@
+.loginPage {
+  	width: 100vw;
+  	height: auto;
+  	position: relative;
+  	overflow: visible;
+  	text-align: left;
+  	font-size: 22px;
+  	color: #e0e4eb;
+    font-family: 'Inter', sans-serif;}
+.greenMinimalistOliveOilOrg {
+  	position: absolute;
+  	top: 0px;
+  	left: 1px;
+  	border-radius: 22px;
+  	width: 100vw;
+  	height: auto;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.loginPageChild {
+  	position: absolute;
+  	top: -79px;
+  	left: 272px;
+  	filter: blur(321.9px);
+  	width: 1493px;
+  	height: 1183px;
+  	object-fit: contain;
+  	flex-shrink: 0;
+}
+.groupParent {
+  	position: absolute;
+  	top: 203px;
+  	left: 1659px;
+  	width: 675px;
+  	height: 945px;
+  	flex-shrink: 0;
+}
+.rectangleParent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 675px;
+  	height: 945px;
+}
+.groupChild {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: 0px 0px 250px rgba(25, 82, 181, 0.53), 0px 0px 250px rgba(3, 118, 251, 0.07) inset, 0px 50px 100px rgba(0, 0, 0, 0.5);
+  	border-radius: 33px;
+  	background: linear-gradient(109.64deg, #0b0f14, #021e41);
+  	border: 1px solid #9c9c9c;
+  	box-sizing: border-box;
+  	width: 675px;
+  	height: 945px;
+}
+.groupItem {
+  	position: absolute;
+  	top: 827px;
+  	left: 50px;
+  	border-radius: 18px;
+  	background-color: rgba(255, 255, 255, 0.05);
+  	border: 1px solid rgba(244, 243, 243, 0.22);
+  	box-sizing: border-box;
+  	width: 278px;
+  	height: 66px;
+}
+.groupInner {
+  	position: absolute;
+  	top: 827px;
+  	left: 350px;
+  	border-radius: 18px;
+  	background-color: rgba(255, 255, 255, 0.05);
+  	border: 1px solid rgba(244, 243, 243, 0.22);
+  	box-sizing: border-box;
+  	width: 278px;
+  	height: 66px;
+}
+.rectangleDiv {
+  	position: absolute;
+  	top: 626px;
+  	left: 50px;
+  	box-shadow: 0px 0px 10.2px #4290ea inset;
+  	border-radius: 18px;
+  	background: linear-gradient(90deg, #327cff, #0e3e93);
+  	width: 575px;
+  	height: 66px;
+  	cursor: pointer;
+}
+.lineDiv {
+  	position: absolute;
+  	top: 737px;
+  	left: 53px;
+  	border-top: 1px solid rgba(255, 255, 255, 0.18);
+  	box-sizing: border-box;
+  	width: 576px;
+  	height: 1px;
+}
+.emailAddress {
+  	position: absolute;
+  	top: 220px;
+  	left: 62px;
+}
+.welcomeBackContainer {
+  	position: absolute;
+  	top: 66px;
+  	left: calc(50% - 152.5px);
+  	font-size: 40px;
+  	font-weight: 600;
+}
+.back {
+  	color: #fff;
+}
+.groupChild2 {
+  	position: absolute;
+  	top: 524px;
+  	left: 62px;
+  	border-radius: 7px;
+  	border: 2px solid #787e89;
+  	box-sizing: border-box;
+  	width: 30px;
+  	height: 30px;
+}
+.rememberMe {
+  	position: absolute;
+  	top: 528px;
+  	left: 113px;
+  	font-size: 21px;
+  	color: rgba(224, 228, 235, 0.71);
+}
+.toAarisDashboard {
+  	position: absolute;
+  	top: 129px;
+  	left: calc(50% - 104.5px);
+  	color: rgba(224, 228, 235, 0.84);
+}
+.googleAccount {
+  	position: absolute;
+  	top: 847px;
+  	left: 129px;
+  	color: rgba(224, 228, 235, 0.66);
+}
+.iosAccount {
+  	position: absolute;
+  	top: 847px;
+  	left: 458px;
+  	color: #a2a5ac;
+}
+.forgotPassword {
+  	position: absolute;
+  	top: 525px;
+  	left: 428px;
+  	color: #327cff;
+}
+.password {
+  	position: absolute;
+  	top: 382px;
+  	left: 62px;
+}
+.signIn {
+  	position: absolute;
+  	top: 644px;
+  	left: 296px;
+  	font-size: 26px;
+  	font-weight: 500;
+}
+.orContinueWith {
+  	position: absolute;
+  	top: 769px;
+  	left: 276px;
+  	font-size: 16px;
+  	line-height: 21px;
+  	color: #6a7282;
+}
+.devicongoogle {
+  	position: absolute;
+  	top: 848px;
+  	left: 84px;
+  	width: 25px;
+  	height: 25px;
+}
+.icoutlineAppleIcon {
+  	position: absolute;
+  	top: 841px;
+  	left: 401px;
+  	width: 37px;
+  	height: 37px;
+}
+.rectangleGroup {
+  	position: absolute;
+  	top: 267px;
+  	left: 53px;
+  	width: 575px;
+  	height: 66px;
+  	color: rgba(224, 228, 235, 0.44);
+}
+.instanceChild {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 18px;
+  	background-color: rgba(255, 255, 255, 0.05);
+  	border: 1px solid #9c9c9c;
+  	box-sizing: border-box;
+}
+.enterYourEmail {
+  	position: absolute;
+  	top: 28.79%;
+  	left: 12.35%;
+}
+.lineMdemailIcon {
+  	position: absolute;
+  	width: 5.39%;
+  	top: 17px;
+  	right: 91.3%;
+  	left: 3.3%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 31px;
+}
+.rectangleContainer {
+   position: absolute;
+   top: 427px;
+   left: 53px;
+   width: 575px;
+   height: 66px;
+   color: rgba(224, 228, 235, 0.44);
+}
+.uillockIcon {
+  	position: absolute;
+  	width: 5.39%;
+  	top: 18px;
+  	right: 91.3%;
+  	left: 3.3%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 31px;
+}
+.iconamooneye {
+  	position: absolute;
+  	width: 5.39%;
+  	top: 19px;
+  	right: 4%;
+  	left: 90.61%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 31px;
+}
+
+.emailInput,
+.passwordInput {
+   position: absolute;
+   top: 0;
+   left: 60px;
+   width: 450px;
+   height: 100%;
+   background: transparent;
+   border: none;
+   outline: none;
+   color: #e0e4eb;
+   font-size: 22px;
+   font-family: 'Inter', sans-serif;
+}
+
+.emailInput::placeholder,
+.passwordInput::placeholder {
+   color: rgba(224, 228, 235, 0.44);
+}
+.emailInput:focus,
+.passwordInput:focus {
+  color: #ffffff;
+}
+
+.emailInput,
+.passwordInput {
+  caret-color: #ffffff;
+}
+
+.rectangleGroup:focus-within .instanceChild {
+  border: 1px solid #4d9dff;
+  box-shadow:
+    0 0 8px rgba(77, 157, 255, 0.5),
+    0 0 20px rgba(77, 157, 255, 0.2);
+}
+
+.rectangleContainer:focus-within .instanceChild {
+  border: 1px solid #4d9dff;
+  box-shadow:
+    0 0 8px rgba(77, 157, 255, 0.5),
+    0 0 20px rgba(77, 157, 255, 0.2);
+}

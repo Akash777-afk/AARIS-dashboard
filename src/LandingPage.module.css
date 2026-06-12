@@ -1,0 +1,1156 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400&display=swap');
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+.landingPage {
+    width: 100%;
+    height: 1350px;
+    position: relative;
+    background-color: #0b0f14;
+    overflow: hidden;
+    text-align: left;
+    font-size: 28px;
+    color: #e5e7eb;
+    font-family: 'Inter', sans-serif;
+}
+.landingPageChild {
+    position: absolute;
+    top: 801.79px;
+    left: 2271px;
+    filter: blur(500px);
+    border-radius: 50%;
+    background-color: rgba(21, 93, 252, 0.26);
+    width: 819.3px;
+    height: 230.5px;
+    transform: rotate(165.2deg);
+    transform-origin: 0 0;
+    flex-shrink: 0;
+}
+.landingPageItem {
+    position: absolute;
+    top: 668.52px;
+    left: 202.47px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    box-sizing: border-box;
+    width: 453px;
+    height: 1px;
+    flex-shrink: 0;
+}
+.landingPageInner {
+    position: absolute;
+    top: 127.75px;
+    left: -0.25px;
+    border-top: 0.5px solid rgba(126, 126, 126, 0.3);
+    box-sizing: border-box;
+    width: 2500.5px;
+    height: 0.5px;
+    flex-shrink: 0;
+}
+.component1 {
+    position: absolute;
+    top: 178px;
+    left: 166px;
+    width: 1382px;
+    height: 239px;
+    flex-shrink: 0;
+    color: #99a1af;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ── CARD 1 — Services (yellow/orange) ── */
+.container {
+    position: absolute;
+    height: 100%;
+    width: 32.27%;
+    top: 0%;
+    right: 67.73%;
+    bottom: 0%;
+    left: 0%;
+    box-shadow: 0px 0px 200px rgba(250, 173, 20, 0.15) inset;
+    border-radius: 26px;
+    background-color: rgba(17, 24, 39, 0.2);
+    border-top: 1px solid #faad14;
+    border-right: 1px solid #faad14;
+    border-bottom: 1px solid #faad14;
+    border-left: 7px solid #faad14;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-width 0.25s ease;
+}
+.container {
+    z-index: 1000;
+}
+.container:hover {
+    transform: translateY(-4px) scale(1.02);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 8px;
+    box-shadow:
+        0 0 20px rgba(250, 173, 20, 0.5),
+        0 0 50px rgba(250, 173, 20, 0.25),
+        0px 0px 200px rgba(250, 173, 20, 0.15) inset;
+}
+
+/* ── CARD 2 — Devices (purple) ── */
+.container2 {
+    position: absolute;
+    height: 100%;
+    width: 32.27%;
+    top: 0%;
+    right: 33.14%;
+    bottom: 0%;
+    left: 34.59%;
+    box-shadow: 0px 0px 200px rgba(157, 26, 240, 0.15) inset;
+    border-radius: 26px;
+    background-color: rgba(17, 24, 39, 0.2);
+    border-top: 1px solid #c352ff;
+    border-right: 1px solid #c352ff;
+    border-bottom: 1px solid #c352ff;
+    border-left: 7px solid #c352ff;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-width 0.25s ease;
+}
+.container2:hover {
+    transform: translateY(-4px) scale(1.02);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 8px;
+    box-shadow:
+        0 0 20px rgba(195, 82, 255, 0.5),
+        0 0 50px rgba(195, 82, 255, 0.25),
+        0px 0px 200px rgba(157, 26, 240, 0.15) inset;
+}
+
+/* ── CARD 3 — Users (green-yellow) ── */
+.container3 {
+    position: absolute;
+    height: 100%;
+    width: 32.27%;
+    top: 0%;
+    right: -1.45%;
+    bottom: 0%;
+    left: 69.18%;
+    box-shadow: 0px 0px 200px rgba(82, 196, 26, 0.15) inset;
+    border-radius: 26px;
+    background-color: rgba(17, 24, 39, 0.2);
+    border-top: 1px solid rgba(255, 223, 64, 0.8);
+    border-right: 1px solid rgba(255, 223, 64, 0.8);
+    border-bottom: 1px solid rgba(255, 223, 64, 0.8);
+    border-left: 7px solid rgba(255, 223, 64, 0.8);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-width 0.25s ease;
+}
+.container3:hover {
+    transform: translateY(-4px) scale(1.02);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 8px;
+    box-shadow:
+        0 0 20px rgba(255, 223, 64, 0.5),
+        0 0 50px rgba(255, 223, 64, 0.25),
+        0px 0px 200px rgba(82, 196, 26, 0.15) inset;
+}
+
+.text {
+    position: absolute;
+    top: 33px;
+    left: 278px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22369600px;
+    background-color: #3a3224;
+    border: 0.7px solid #f9ad14;
+    box-sizing: border-box;
+    width: 138px;
+    height: 31px;
+    font-size: 18px;
+    color: #f9ad14;
+}
+.alertsActive {
+    position: absolute;
+    top: 6.67px;
+    left: 10.67px;
+    line-height: 16px;
+    font-weight: 500;
+}
+.services {
+    position: absolute;
+    top: 37px;
+    left: 98px;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #dee1e5;
+}
+.down {
+    position: absolute;
+    top: 113.67px;
+    left: 61.67px;
+    line-height: 20px;
+}
+.atRisk {
+    position: absolute;
+    top: 177.67px;
+    left: 61.67px;
+    line-height: 20px;
+}
+.div {
+    position: absolute;
+    top: 172px;
+    left: 373px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #fff;
+}
+.div2 {
+    position: absolute;
+    top: 108px;
+    left: 375px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #fff;
+}
+.containerChild {
+    position: absolute;
+    top: 25px;
+    left: 36px;
+    width: 43px;
+    height: 43px;
+}
+.text2 {
+    position: absolute;
+    top: 33px;
+    left: 262px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22369600px;
+    background-color: rgba(68, 40, 75, 0.49);
+    border: 0.7px solid #c04dfe;
+    box-sizing: border-box;
+    width: 156px;
+    height: 31px;
+    font-size: 18px;
+    color: #d992ff;
+}
+.devices {
+    position: absolute;
+    top: 37px;
+    left: 100px;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #dee1e5;
+}
+.containerItem {
+    position: absolute;
+    top: 25px;
+    left: 38px;
+    width: 43px;
+    height: 43px;
+}
+.icbaselineDevicesIcon {
+    position: absolute;
+    top: 35px;
+    left: 48px;
+    width: 24px;
+    height: 24px;
+}
+.text3 {
+    position: absolute;
+    top: 34px;
+    left: 255px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22369600px;
+    background-color: rgba(24, 53, 41, 0.46);
+    border: 0.7px solid #bab733;
+    box-sizing: border-box;
+    width: 166px;
+    height: 31px;
+    font-size: 16px;
+    color: #c2b634;
+}
+.users {
+    position: absolute;
+    top: 36px;
+    left: 99px;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #dee1e5;
+}
+.div5 {
+    position: absolute;
+    top: 172px;
+    left: 346px;
+    line-height: 32px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+.div6 {
+    position: absolute;
+    top: 108px;
+    left: 344px;
+    line-height: 32px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+.containerInner {
+    position: absolute;
+    top: 26px;
+    left: 37px;
+    width: 43px;
+    height: 43px;
+}
+.ciusersIcon {
+    position: absolute;
+    top: 35px;
+    left: 47px;
+    width: 24px;
+    height: 24px;
+}
+
+/* ── TOP SLOW APIs ── */
+.rectangleParent {
+    position: absolute;
+    top: 449px;
+    left: 168px;
+    box-shadow: 0px 0px 33px rgba(22, 119, 255, 0.2) inset;
+    width: 1400px;
+    height: 317px;
+    flex-shrink: 0;
+    font-size: 20px;
+}
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 26px;
+    background-color: rgba(17, 24, 39, 0.89);
+    border: 1.5px solid rgba(176, 184, 208, 0.54);
+    box-sizing: border-box;
+    width: 1400px;
+    height: 317px;
+}
+.text4 {
+    position: absolute;
+    top: 183px;
+    left: 905.64px;
+    border-radius: 33px;
+    background-color: rgba(143, 66, 66, 0.32);
+    border: 1px solid rgba(255, 77, 79, 0.31);
+    box-sizing: border-box;
+    width: 143.8px;
+    height: 35px;
+    font-size: 18px;
+    color: #fe4b53;
+}
+.ms {
+    position: absolute;
+    top: calc(50% - 10.5px);
+    left: calc(50% - 58.9px);
+    line-height: 21px;
+    font-weight: 500;
+}
+.icon {
+    position: absolute;
+    top: 8px;
+    left: 114px;
+    width: 20px;
+    height: 20px;
+}
+.text5 {
+    position: absolute;
+    top: 246px;
+    left: 905.64px;
+    border-radius: 33px;
+    background-color: rgba(143, 66, 66, 0.32);
+    border: 1px solid rgba(255, 77, 79, 0.31);
+    box-sizing: border-box;
+    width: 143.8px;
+    height: 35px;
+    font-size: 18px;
+    color: #ff4b53;
+}
+.div7 {
+    position: absolute;
+    top: 193px;
+    left: 53.69px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    width: 137.8px;
+}
+.div8 {
+    position: absolute;
+    top: 253px;
+    left: 53.69px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    width: 137.8px;
+}
+.linkstatus {
+    position: absolute;
+    top: 193px;
+    left: 653.4px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    width: 97.3px;
+}
+.cmfMise {
+    position: absolute;
+    top: 193px;
+    left: 309.99px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    width: 172.2px;
+}
+.cmfMise2 {
+    position: absolute;
+    top: 253px;
+    left: 309.99px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    width: 245.2px;
+}
+.getcfs {
+    position: absolute;
+    top: 253px;
+    left: 653.4px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    width: 71.9px;
+}
+.div9 {
+    position: absolute;
+    top: 193px;
+    left: 1177.13px;
+    line-height: 21px;
+    display: inline-block;
+    width: 120.5px;
+}
+.div10 {
+    position: absolute;
+    top: 253px;
+    left: 1176.12px;
+    line-height: 21px;
+    display: inline-block;
+    width: 120.5px;
+}
+.topSlowApis {
+    position: absolute;
+    top: 41px;
+    left: 107.38px;
+    font-size: 26px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    width: 179.3px;
+}
+.groupItem {
+    position: absolute;
+    top: 26px;
+    left: 38.49px;
+    width: 49.6px;
+    height: 45px;
+}
+.rectangleGroup {
+    position: absolute;
+    top: 91px;
+    left: 2.03px;
+    width: 1395.9px;
+    height: 58px;
+    color: #99a1af;
+}
+.groupInner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 2px 2px 33px rgba(124, 126, 255, 0.11) inset;
+    background-color: #111827;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.31);
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.31);
+    box-sizing: border-box;
+    width: 1395.9px;
+    height: 58px;
+}
+.serviceName {
+    position: absolute;
+    top: 19px;
+    left: 305.93px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    width: 152px;
+}
+.apiPoint {
+    position: absolute;
+    top: 19px;
+    left: 646.31px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    width: 102.3px;
+}
+.latencyMs {
+    position: absolute;
+    top: 19px;
+    left: 899.57px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    width: 145.9px;
+}
+.lastChecked {
+    position: absolute;
+    top: 19px;
+    left: 1170.04px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    width: 158px;
+}
+.host {
+    position: absolute;
+    top: 19px;
+    left: 53.69px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    width: 58.8px;
+}
+.icroundRefreshIcon {
+    position: absolute;
+    top: 28.89px;
+    left: 1264.37px;
+    width: 34.2px;
+    height: 34.2px;
+}
+.text6 {
+    position: absolute;
+    top: 25px;
+    left: 1084.95px;
+    border-radius: 33px;
+    border: 1px solid rgba(255, 254, 254, 0.33);
+    box-sizing: border-box;
+    width: 150.9px;
+    height: 41px;
+    font-size: 18px;
+    color: rgba(229, 231, 235, 0.33);
+}
+.ms3 {
+    position: absolute;
+    top: calc(50% - 10.5px);
+    left: calc(50% - 59.45px);
+    line-height: 21px;
+    font-weight: 500;
+}
+.sortBy {
+    position: absolute;
+    top: calc(50% - 10.5px);
+    left: 20px;
+    line-height: 21px;
+    color: rgba(229, 231, 235, 0.33);
+}
+.flowbitesortOutlineIcon {
+    position: absolute;
+    top: 9px;
+    left: 110px;
+    width: 24px;
+    height: 24px;
+}
+.text7 {
+    position: absolute;
+    top: 25px;
+    left: 829.67px;
+    border-radius: 33px;
+    border: 1px solid rgba(255, 254, 254, 0.33);
+    box-sizing: border-box;
+    width: 223.9px;
+    height: 41px;
+    font-size: 18px;
+    color: rgba(229, 231, 235, 0.38);
+}
+.ms4 {
+    position: absolute;
+    top: calc(50% - 10.5px);
+    left: calc(50% - 58.95px);
+    line-height: 21px;
+    font-weight: 500;
+}
+.searchByHost {
+    position: absolute;
+    top: calc(50% - 10.5px);
+    left: 56px;
+    line-height: 21px;
+    color: rgba(229, 231, 235, 0.38);
+}
+.icon3 {
+    position: absolute;
+    top: 10px;
+    left: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 21px;
+    height: 21px;
+}
+.qlementineIconsmenuDots16 {
+    position: absolute;
+    top: 29.9px;
+    left: 1327.16px;
+    width: 31.2px;
+    height: 31.2px;
+}
+
+/* ── DELAY QUERIES ── */
+.rectangleContainer {
+    position: absolute;
+    top: 798px;
+    left: 1600px;
+    width: 863px;
+    height: 496px;
+    flex-shrink: 0;
+    font-size: 16px;
+}
+.rectangleDiv {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 30px rgba(22, 119, 255, 0.2) inset;
+    border-radius: 26px;
+    background-color: #101725;
+    border: 1.5px solid #5f6f8e;
+    box-sizing: border-box;
+    width: 863px;
+    height: 496px;
+}
+.text8 {
+    position: absolute;
+    top: 37.95px;
+    left: 285px;
+    border-radius: 33px;
+    background-color: #163124;
+    border: 0.7px solid rgba(13, 176, 123, 0.2);
+    box-sizing: border-box;
+    width: 115px;
+    height: 34.7px;
+    font-size: 18px;
+    color: #06ffae;
+    font-family: 'Inter', sans-serif;
+}
+.noDelays {
+    position: absolute;
+    top: 8.67px;
+    left: 15.67px;
+    line-height: 16px;
+    font-weight: 500;
+}
+.iconParkOutlinehistoryQuer {
+    position: absolute;
+    top: 36px;
+    left: 36px;
+    width: 35px;
+    height: 35px;
+}
+.delayQueries {
+    position: absolute;
+    top: 44.21px;
+    left: 92px;
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    width: 173px;
+    height: 21.1px;
+}
+.cpDelayQueriesParent {
+    position: absolute;
+    top: 119.32px;
+    left: 38px;
+    width: 786px;
+    height: 84.7px;
+}
+.cpDelayQueries {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    letter-spacing: 0.6px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.groupDiv {
+    position: absolute;
+    top: 36.68px;
+    left: 0px;
+    width: 786px;
+    height: 48px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.34);
+}
+.groupChild2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    width: 786px;
+    height: 48px;
+}
+.noDelayQueries {
+    position: absolute;
+    top: 10.16px;
+    left: 17px;
+    line-height: 24px;
+}
+.zondiconsrefresh {
+    position: absolute;
+    top: 13.58px;
+    left: 742.74px;
+    width: 20.5px;
+    height: 20.5px;
+}
+.evmDelayQueriesParent {
+    position: absolute;
+    top: 239.05px;
+    left: 38px;
+    width: 786px;
+    height: 84.9px;
+}
+.rectangleParent2 {
+    position: absolute;
+    top: 35.95px;
+    left: 0px;
+    width: 786px;
+    height: 49px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.34);
+}
+.groupChild3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    width: 786px;
+    height: 49px;
+}
+.noDelayQueries2 {
+    position: absolute;
+    top: 11.95px;
+    left: 17px;
+    line-height: 24px;
+}
+.zondiconsrefresh2 {
+    position: absolute;
+    top: 14.32px;
+    left: 742.74px;
+    width: 20.5px;
+    height: 20.5px;
+}
+.cpBlockingQueriesParent {
+    position: absolute;
+    top: 358.79px;
+    left: 38px;
+    width: 786px;
+    height: 85.2px;
+}
+.rectangleParent3 {
+    position: absolute;
+    top: 36.21px;
+    left: 0px;
+    width: 786px;
+    height: 49px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.34);
+}
+.noDelayQueries3 {
+    position: absolute;
+    top: 11.68px;
+    left: 17px;
+    line-height: 24px;
+}
+.zondiconsrefresh3 {
+    position: absolute;
+    top: 14.06px;
+    left: 742.74px;
+    width: 20.5px;
+    height: 20.5px;
+}
+.icroundRefreshIcon2 {
+    position: absolute;
+    top: 30px;
+    left: 778px;
+    width: 34px;
+    height: 34px;
+}
+
+/* ── PROBLEMS ── */
+.groupParent {
+    position: absolute;
+    top: 798px;
+    left: 168px;
+    width: 1400px;
+    height: 496px;
+    flex-shrink: 0;
+    font-size: 18px;
+    color: #e0e4eb;
+}
+.rectangleParent4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1400px;
+    height: 496px;
+}
+.groupChild5 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 30px rgba(22, 119, 255, 0.33) inset;
+    border-radius: 26px;
+    background-color: #101725;
+    border: 1.5px solid #5e6f8e;
+    box-sizing: border-box;
+    width: 1400px;
+    height: 496px;
+}
+.frameIcon {
+    position: absolute;
+    top: 28px;
+    left: 38.49px;
+    width: 49.6px;
+    height: 45px;
+}
+.text9 {
+    position: absolute;
+    top: 25px;
+    left: 1084.95px;
+    border-radius: 33px;
+    border: 1px solid rgba(255, 254, 254, 0.33);
+    box-sizing: border-box;
+    width: 150.9px;
+    height: 41px;
+    color: rgba(229, 231, 235, 0.33);
+}
+.text10 {
+    position: absolute;
+    top: 25px;
+    left: 829.67px;
+    border-radius: 33px;
+    border: 1px solid rgba(255, 254, 254, 0.33);
+    box-sizing: border-box;
+    width: 223.9px;
+    height: 41px;
+    color: rgba(229, 231, 235, 0.38);
+}
+.div11 { position: absolute; top: 185px; left: 46.6px; line-height: 20px; font-weight: 500; display: inline-block; width: 128.7px; }
+.highMemoryUtilization { position: absolute; top: 185px; left: 402.17px; line-height: 20px; font-weight: 500; display: inline-block; width: 218.8px; }
+.raised { position: absolute; top: 185px; left: 686.83px; line-height: 20px; font-weight: 500; display: inline-block; width: 62.8px; }
+.div12 { position: absolute; top: 185px; left: 840.81px; line-height: 20px; font-weight: 500; white-space: pre-wrap; display: inline-block; width: 209.7px; }
+.h15m { position: absolute; top: 185px; left: 1122.43px; line-height: 20px; font-weight: 500; display: inline-block; width: 67.9px; }
+.text11 { position: absolute; top: 181px; left: 235.02px; border-radius: 33px; background-color: rgba(254, 154, 0, 0.1); border: 0.7px solid rgba(254, 154, 0, 0.2); box-sizing: border-box; width: 88.2px; height: 28px; color: #ffb900; }
+.average { position: absolute; top: 4.67px; left: 8.67px; line-height: 16px; font-weight: 500; }
+.materialSymbolsinfoOutlineIcon { position: absolute; top: 184.92px; left: 1289.66px; width: 24.3px; height: 24.3px; }
+.div13 { position: absolute; top: 245.14px; left: 46.6px; line-height: 20px; font-weight: 500; display: inline-block; width: 128.7px; }
+.highDiskUtilization { position: absolute; top: 245.14px; left: 402.17px; line-height: 20px; font-weight: 500; display: inline-block; width: 218.8px; }
+.raised2 { position: absolute; top: 245.14px; left: 686.83px; line-height: 20px; font-weight: 500; display: inline-block; width: 62.8px; }
+.div14 { position: absolute; top: 245.14px; left: 840.81px; line-height: 20px; font-weight: 500; white-space: pre-wrap; display: inline-block; width: 209.7px; }
+.h15m2 { position: absolute; top: 245.14px; left: 1122.43px; line-height: 20px; font-weight: 500; display: inline-block; width: 67.9px; }
+.materialSymbolsinfoOutlineIcon2 { position: absolute; top: 245.07px; left: 1289.66px; width: 24.3px; height: 24.3px; }
+.div15 { position: absolute; top: 305.29px; left: 46.6px; line-height: 20px; font-weight: 500; display: inline-block; width: 128.7px; }
+.highCpuUtilization { position: absolute; top: 305.29px; left: 402.17px; line-height: 20px; font-weight: 500; display: inline-block; width: 218.8px; }
+.raised3 { position: absolute; top: 305.29px; left: 686.83px; line-height: 20px; font-weight: 500; display: inline-block; width: 62.8px; }
+.div16 { position: absolute; top: 305.29px; left: 840.81px; line-height: 20px; font-weight: 500; white-space: pre-wrap; display: inline-block; width: 209.7px; }
+.h15m3 { position: absolute; top: 305.29px; left: 1122.43px; line-height: 20px; font-weight: 500; display: inline-block; width: 67.9px; }
+.materialSymbolsinfoOutlineIcon3 { position: absolute; top: 305.21px; left: 1289.66px; width: 24.3px; height: 24.3px; }
+.div17 { position: absolute; top: 365.43px; left: 46.6px; line-height: 20px; font-weight: 500; display: inline-block; width: 128.7px; }
+.highMemoryUtilization2 { position: absolute; top: 365.43px; left: 402.17px; line-height: 20px; font-weight: 500; display: inline-block; width: 218.8px; }
+.raised4 { position: absolute; top: 365.43px; left: 686.83px; line-height: 20px; font-weight: 500; display: inline-block; width: 62.8px; }
+.div18 { position: absolute; top: 365.43px; left: 840.81px; line-height: 20px; font-weight: 500; white-space: pre-wrap; display: inline-block; width: 209.7px; }
+.h15m4 { position: absolute; top: 365.43px; left: 1122.43px; line-height: 20px; font-weight: 500; display: inline-block; width: 67.9px; }
+.text12 { position: absolute; top: 361.43px; left: 235.02px; border-radius: 33px; background-color: rgba(254, 154, 0, 0.1); border: 0.7px solid rgba(254, 154, 0, 0.2); box-sizing: border-box; width: 88.2px; height: 28px; color: #ffb900; }
+.materialSymbolsinfoOutlineIcon4 { position: absolute; top: 365.36px; left: 1289.66px; width: 24.3px; height: 24.3px; }
+.div19 { position: absolute; top: 425.58px; left: 46.6px; line-height: 20px; font-weight: 500; display: inline-block; width: 128.7px; }
+.highMemoryUtilization3 { position: absolute; top: 425.58px; left: 402.17px; line-height: 20px; font-weight: 500; display: inline-block; width: 218.8px; }
+.raised5 { position: absolute; top: 425.58px; left: 686.83px; line-height: 20px; font-weight: 500; display: inline-block; width: 62.8px; }
+.div20 { position: absolute; top: 425.58px; left: 840.81px; line-height: 20px; font-weight: 500; white-space: pre-wrap; display: inline-block; width: 209.7px; }
+.h15m5 { position: absolute; top: 425.58px; left: 1122.43px; line-height: 20px; font-weight: 500; display: inline-block; width: 67.9px; }
+.text13 { position: absolute; top: 421.58px; left: 235.02px; border-radius: 33px; background-color: rgba(254, 154, 0, 0.1); border: 0.7px solid rgba(254, 154, 0, 0.2); box-sizing: border-box; width: 88.2px; height: 28px; color: #ffb900; }
+.materialSymbolsinfoOutlineIcon5 { position: absolute; top: 425.5px; left: 1289.66px; width: 24.3px; height: 24.3px; }
+.text14 { position: absolute; top: 241px; left: 250.22px; border-radius: 33px; background-color: #241414; border: 0.7px solid rgba(255, 77, 79, 0.31); box-sizing: border-box; width: 55.7px; height: 28px; color: #ff4d4f; }
+.text15 { position: absolute; top: 301px; left: 250.22px; border-radius: 33px; background-color: #241414; border: 0.7px solid rgba(255, 77, 79, 0.31); box-sizing: border-box; width: 55.7px; height: 28px; color: #ff4d4f; }
+.problemsParent { position: absolute; top: 41px; left: 3.04px; width: 1395.9px; height: 108px; color: #99a1af; }
+.problems { position: absolute; top: 0px; left: 105.35px; font-size: 26px; line-height: 20px; font-weight: 500; color: #e5e7eb; display: inline-block; width: 118.5px; }
+.groupChild6 { position: absolute; top: 50px; left: 0px; box-shadow: 2px 2px 33px rgba(124, 126, 255, 0.11) inset; background-color: #111827; border-top: 0.5px solid rgba(255, 255, 255, 0.31); border-bottom: 0.5px solid rgba(255, 255, 255, 0.31); box-sizing: border-box; width: 1395.9px; height: 58px; }
+.severity { position: absolute; top: 69px; left: 226.92px; line-height: 20px; font-weight: 500; display: inline-block; width: 89.1px; }
+.problem { position: absolute; top: 69px; left: 442.69px; line-height: 20px; font-weight: 500; display: inline-block; width: 88.1px; }
+.ticket { position: absolute; top: 69px; left: 678.73px; line-height: 20px; font-weight: 500; display: inline-block; width: 65.8px; }
+.timeSnap { position: absolute; top: 69px; left: 882.34px; line-height: 20px; font-weight: 500; display: inline-block; width: 100.3px; }
+.age { position: absolute; top: 69px; left: 1130.54px; line-height: 20px; font-weight: 500; display: inline-block; width: 38.5px; }
+.action { position: absolute; top: 69px; left: 1265.27px; line-height: 20px; font-weight: 500; display: inline-block; width: 71.9px; }
+.host2 { position: absolute; top: 69px; left: 47.61px; line-height: 20px; font-weight: 500; display: inline-block; width: 52.7px; }
+
+/* ── DB REPLICATION ── */
+.landingPageInner2 { position: absolute; top: 178px; left: 1600px; width: 606px; height: 588px; flex-shrink: 0; color: #059669; }
+.rectangleParent5 { position: absolute; top: 0px; left: 0px; width: 606px; height: 588px; }
+.frameChild { position: absolute; height: 100%; width: 142.41%; top: 0%; right: -42.41%; bottom: 0%; left: 0%; box-shadow: 0px 0px 30px rgba(22, 119, 255, 0.2) inset; border-radius: 26px; background-color: #101725; border: 1.5px solid #5f6f8e; box-sizing: border-box; flex-shrink: 0; }
+.dbReplicationStatus { position: absolute; height: 5.19%; width: 268px; top: 7.27%; left: 14.52%; font-size: 26px; line-height: 30px; font-weight: 500; color: #e5e7eb; display: inline-block; flex-shrink: 0; }
+.container4 { position: absolute; height: 32.01%; width: 126.9%; top: 20.42%; right: -34.49%; bottom: 47.58%; left: 7.59%; box-shadow: 0px 0px 100px rgba(10, 221, 109, 0.2) inset; border-radius: 22px; background-color: rgba(11, 15, 20, 0.2); border: 0.5px solid #52c41a; box-sizing: border-box; flex-shrink: 0; }
+.container5 { position: absolute; top: 31.96px; left: 197px; box-shadow: 0px 2px 8px rgba(16, 185, 129, 0.3); border-radius: 22369600px; background: linear-gradient(135deg, #059669 52.4%, #09553e); width: 106px; height: 31px; display: flex; align-items: center; padding: 0px 12px; box-sizing: border-box; }
+.iconParent { position: absolute; top: 155.75px; left: 255px; width: 74px; height: 19.8px; flex-shrink: 0; font-size: 16px; color: #fff; }
+.icon5 { position: absolute; top: 5.75px; left: 0px; width: 14px; height: 14px; }
+.statusbadge { position: absolute; top: 0px; left: 17px; width: 57px; height: 19.5px; }
+.synced { position: absolute; top: 1.67px; left: 3px; line-height: 19.5px; font-weight: 500; flex-shrink: 0; }
+.frameItem { position: absolute; top: 143px; left: 765px; width: 18px; height: 18px; flex-shrink: 0; }
+.rectangleParent6 { position: absolute; top: 222px; left: 81px; width: 131.4px; height: 43px; flex-shrink: 0; font-size: 16px; color: #e2e8f0; }
+.groupChild7 { position: absolute; top: 0px; left: 0px; border-radius: 36px; border: 1px solid #fff; box-sizing: border-box; width: 131.4px; height: 43px; }
+.div21 { position: absolute; top: 11px; left: 13.86px; line-height: 21px; display: inline-block; width: 105.1px; }
+.rectangleParent7 { position: absolute; top: 222px; left: 362.37px; width: 131.4px; height: 43px; flex-shrink: 0; font-size: 16px; color: #e2e8f0; }
+.rectangleParent8 { position: absolute; top: 222px; left: 643.74px; width: 131.4px; height: 43px; flex-shrink: 0; font-size: 16px; color: #e2e8f0; }
+.div24 { position: absolute; top: 231px; left: 598px; line-height: 24px; flex-shrink: 0; }
+.div25 { position: absolute; top: 231px; left: 578px; line-height: 24px; flex-shrink: 0; }
+.div26 { position: absolute; top: 231px; left: 298px; line-height: 24px; flex-shrink: 0; }
+.div27 { position: absolute; top: 231px; left: 558px; line-height: 24px; flex-shrink: 0; }
+.div28 { position: absolute; top: 231px; left: 278px; line-height: 24px; flex-shrink: 0; }
+.div29 { position: absolute; top: 231px; left: 538px; line-height: 24px; flex-shrink: 0; }
+.div30 { position: absolute; top: 231px; left: 258px; line-height: 24px; flex-shrink: 0; }
+.div31 { position: absolute; top: 231px; left: 518px; line-height: 24px; flex-shrink: 0; }
+.div32 { position: absolute; top: 231px; left: 238px; line-height: 24px; flex-shrink: 0; }
+.div33 { position: absolute; top: 231px; left: 317px; line-height: 24px; flex-shrink: 0; }
+.cfmprodCp { position: absolute; top: 153px; left: 81px; font-size: 20px; line-height: 27px; font-weight: 600; color: #e2e8f0; flex-shrink: 0; }
+.container6 { position: absolute; height: 32.01%; width: 126.9%; top: 60.55%; right: -34.49%; bottom: 7.44%; left: 7.59%; box-shadow: 0px 0px 100px rgba(251, 44, 54, 0.22) inset; border-radius: 22px; background-color: rgba(11, 15, 20, 0.2); border: 0.5px solid #ff4851; box-sizing: border-box; flex-shrink: 0; font-size: 20px; color: #e2e8f0; }
+.cfmprodEvm { position: absolute; top: 35px; left: 35px; line-height: 27px; font-weight: 600; }
+.container7 { position: absolute; top: 31.94px; left: 214px; box-shadow: 0px 2px 8px rgba(239, 68, 68, 0.3); border-radius: 22369600px; background: linear-gradient(135deg, #ef4444, #a81515); width: 137px; height: 32px; display: flex; align-items: center; padding: 0px 12px; box-sizing: border-box; gap: 6px; font-size: 16px; color: #fff; }
+.icon6 { height: 14px; width: 14px; position: relative; }
+.statusbadge2 { height: 19.5px; flex: 1; position: relative; }
+.notSynced { position: absolute; top: -0.33px; left: 0px; line-height: 19.5px; font-weight: 500; }
+.groupContainer { position: absolute; top: 104px; left: 36px; width: 694.1px; height: 43px; font-size: 28px; color: #059669; }
+.rectangleParent9 { position: absolute; top: 0px; left: 0px; width: 131.4px; height: 43px; font-size: 16px; color: #e2e8f0; }
+.rectangleParent10 { position: absolute; top: 0px; left: 281.37px; width: 131.4px; height: 43px; font-size: 16px; color: #e2e8f0; }
+.rectangleParent11 { position: absolute; top: 0px; left: 562.74px; width: 131.4px; height: 43px; font-size: 16px; color: #e2e8f0; }
+.div37 { position: absolute; top: 9px; left: 217px; line-height: 24px; }
+.div38 { position: absolute; top: 9px; left: 477px; line-height: 24px; color: #dc2727; }
+.div39 { position: absolute; top: 9px; left: 497px; line-height: 24px; color: #dc2727; }
+.div40 { position: absolute; top: 9px; left: 197px; line-height: 24px; }
+.div41 { position: absolute; top: 9px; left: 457px; line-height: 24px; color: #dc2727; }
+.div42 { position: absolute; top: 9px; left: 177px; line-height: 24px; }
+.div43 { position: absolute; top: 9px; left: 437px; line-height: 24px; color: #dc2727; }
+.div44 { position: absolute; top: 9px; left: 157px; line-height: 24px; }
+.div45 { position: absolute; top: 9px; left: 236px; line-height: 24px; }
+.icon7 { position: absolute; top: 111px; left: 553px; width: 30px; height: 31px; }
+.icroundRefreshIcon4 { position: absolute; width: 5.61%; top: 43px; right: -33.99%; left: 128.38%; max-width: 100%; overflow: hidden; height: 34px; flex-shrink: 0; }
+.fluentstatus12RegularIcon { position: absolute; width: 5.61%; top: 40px; right: 88.61%; left: 5.78%; max-width: 100%; overflow: hidden; height: 34px; flex-shrink: 0; }
+.frameInner { position: absolute; top: 372px; left: 764px; width: 20px; height: 20px; flex-shrink: 0; }
+
+/* ── SIDEBAR ── */
+.sidebar {
+    position: absolute;
+    top: 179px;
+    left: 0px;
+    box-shadow: 0px 4px 100px rgba(21, 53, 146, 0.51) inset;
+    border-radius: 0px 110px 110px 0px;
+    background-color: rgba(17, 24, 39, 0.2);
+    border-right: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    width: 130px;
+    height: 967px;
+    flex-shrink: 0;
+}
+.button {
+    position: absolute;
+    left: 30px;
+    border-radius: 18px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+    overflow: visible;
+}
+.button7 {
+    position: absolute;
+    left: 30px;
+    border-radius: 18px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+    overflow: visible;
+}
+.button:hover,
+.button7:hover {
+    background-color: rgba(22, 119, 255, 0.12);
+    border-color: #1677ff;
+
+    box-shadow:
+        0 0 12px rgba(22, 119, 255, 0.35);
+
+    transform: scale(1.05);
+}
+.buttonActive {
+    background-color: rgba(22, 119, 255, 0.18);
+    border: 1px solid #1677ff;
+
+    box-shadow:
+        0 0 0 1px rgba(22, 119, 255, 0.7),
+        0 0 18px rgba(22, 119, 255, 0.45);
+
+    transform: scale(1.05);
+}
+.buttonGlow {
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: radial-gradient(circle, rgba(22, 119, 255, 0.3) 0%, transparent 70%);
+    animation: glowPulse 2s ease-in-out infinite;
+    pointer-events: none;
+    z-index: 0;
+}
+@keyframes glowPulse {
+    0%, 100% { opacity: 0.5; transform: scale(1); }
+    50%       { opacity: 1;   transform: scale(1.2); }
+}
+.icon8 {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    z-index: 1;
+    transition: filter 0.2s ease;
+}
+.buttonActive .icon8 {
+    filter: brightness(0) invert(1);
+}
+/* ── TOPBAR ── */
+.topbarParent {
+    position: absolute;
+    top: -215px;
+    left: -101.42px;
+    width: 2601.4px;
+    height: 128px;
+    flex-shrink: 0;
+    font-size: 26px;
+    color: rgba(255, 255, 255, 0.81);
+}
+.topbar {
+    position: absolute;
+    top: 215px;
+    left: 101.42px;
+    box-shadow: 0px 4px 40px rgba(22, 119, 255, 0.14) inset;
+    background-color: #111427;
+    border-bottom: none;
+    box-sizing: border-box;
+    width: 2500px;
+    height: 128px;
+}
+.text16 { position: absolute; top: 73px; left: 293px; width: 156.9px; height: 28px; }
+.vectorParent { position: absolute; top: 26px; left: 266px; border-radius: 33px; border: 1px solid #484747; box-sizing: border-box; width: 445px; height: 72px; overflow: hidden; }
+.instanceChild { position: absolute; top: 27px; left: -46px; filter: blur(30px); width: 67.1px; height: 65.5px; object-fit: contain; flex-shrink: 0; }
+.welcomeToAaris { position: absolute; top: calc(50% - 14px); left: calc(50% - 185.5px); line-height: 28px; font-weight: 500; flex-shrink: 0; }
+.textInputParent { position: absolute; top: 27px; left: 32px; width: 2433px; height: 70px; font-size: 20px; color: #6b7280; }
+
+/* Search box */
+.textInput {
+    position: absolute;
+    height: 100%;
+    width: 43.49%;
+    top: 0%;
+    right: 26.88%;
+    bottom: 0%;
+    left: 29.63%;
+    border-radius: 44px;
+    background-color: #0b0f14;
+    border: 1px solid #313030;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.textInputFocused {
+    border-color: rgba(22, 119, 255, 0.7);
+    box-shadow: 0 0 0 1px rgba(22, 119, 255, 0.35), 0 0 22px rgba(22, 119, 255, 0.15);
+}
+.searchInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #e5e7eb;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    caret-color: #1677ff;
+}
+.searchInput::placeholder { color: #6b7280; }
+
+.searchServicesDevices { position: absolute; top: calc(50% - 12px); left: 91px; flex-shrink: 0; }
+.icon15 { position: absolute; top: 19px; left: 32px; width: 32px; height: 32px; flex-shrink: 0; z-index: 1; }
+.iconParkOutlinevoice { position: absolute; top: 19px; left: 990px; width: 32px; height: 32px; flex-shrink: 0; z-index: 1; }
+
+.buttonIcon { position: absolute; top: 20px; right: 100px; width: 33px; height: 33px; object-fit: contain; filter: brightness(0) invert(0.85); }
+.buttonIcon2 { position: absolute; top: 15px; right: 185px; width: 44px; height: 44px; object-fit: contain; filter: brightness(0) invert(0.85); }
+.buttonIcon3 { position: absolute; top: 20px; right: 15px; width: 35px; height: 35px; object-fit: contain; filter: brightness(0) invert(0.85); }
+
+.buttonParent {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    pointer-events: none;
+}
+.buttonIcon,
+.buttonIcon2,
+.buttonIcon3,
+.button8 {
+    pointer-events: auto;
+}
+.iconButton { position: relative; }
+.button8 { position: absolute; height: 100%; width: 12.86%; top: 0%; right: 12.21%; bottom: 0%; left: 74.93%; border-radius: 14px; background-color: #0b0f14; border: 1px solid #313030; box-sizing: border-box; }
+.materialSymbolsmenuRoundedIcon { position: absolute; top: 10px; left: 10px; width: 50px; height: 50px; }
+.timePeriod { position: absolute; top: calc(50% - 23px); left: 78px; font-weight: 500; }
+.april2024 { position: absolute; top: calc(50% + 5px); left: 79px; font-size: 13px; line-height: 18px; font-family: 'Albert Sans'; }
+.iconParkSoliddownOne { position: absolute; top: 23px; left: 273px; width: 24px; height: 24px; }
+.t12Icon { position: absolute; width: 8.43%; top: 0px; right: 91.57%; left: 0%; max-width: 100%; overflow: hidden; height: 69px; object-fit: cover; }
+.uilcalender { position: absolute; width: 2.06%; top: 4px; right: 22.19%; left: 75.75%; height: 50px; overflow: hidden; }
+.ellipseDiv { position: absolute; top: 0px; left: 221.17px; filter: blur(500px); border-radius: 50%; background-color: rgba(21, 93, 252, 0.2); width: 980.2px; height: 425.6px; transform: rotate(31.3deg); transform-origin: 0 0; }
+.searchInput{
+    background: transparent;
+}   
