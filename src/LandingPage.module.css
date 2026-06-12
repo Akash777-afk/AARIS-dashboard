@@ -1153,4 +1153,7 @@ body {
 .ellipseDiv { position: absolute; top: 0px; left: 221.17px; filter: blur(500px); border-radius: 50%; background-color: rgba(21, 93, 252, 0.2); width: 980.2px; height: 425.6px; transform: rotate(31.3deg); transform-origin: 0 0; }
 .searchInput{
     background: transparent;
-}   
+} 
+.landingPage {
+    zoom: 0.75;
+}  
