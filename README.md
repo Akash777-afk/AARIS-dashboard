@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -71,3 +72,7 @@ export default defineConfig([
   },
 ])
 ```
+=======
+# AARIS-dashboard
+React + Vite implementation of AARIS Dashboard UI
+>>>>>>> 889452ff4a216561ad703e06ea2db483fe4a9c92
