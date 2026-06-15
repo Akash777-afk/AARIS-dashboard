@@ -99,6 +99,7 @@ height: 1px;
 position: absolute;
 top: 220px;
 left: 62px;
+color: rgba(224, 228, 235, 0.44);
 }
 .welcomeBackContainer {
 position: absolute;
@@ -106,8 +107,6 @@ top: 66px;
 left: calc(50% - 152.5px);
 font-size: 40px;
 font-weight: 600;
-}
-.back {
 color: #fff;
 }
 .groupChild2 {
@@ -162,6 +161,7 @@ top: 644px;
 left: 296px;
 font-size: 26px;
 font-weight: 500;
+color: #fff;
 }
 .orContinueWith {
 position: absolute;
