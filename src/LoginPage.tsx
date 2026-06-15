@@ -7,7 +7,7 @@ type LoginPageProps = {
 };
 
 const LoginPage: FunctionComponent<LoginPageProps> = ({ onLogin }) => {  
-  const [email, setEmail] = useState('');
+  const [email,] = useState('');
   const [password, setPassword] = useState('');
 
   const onRectangleClick = useCallback(() => {
