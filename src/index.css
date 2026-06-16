@@ -14,3 +14,6 @@ body,
 body {
   font-family: Arial, sans-serif;
 }
+html, body {
+    overflow-x: hidden;
+}

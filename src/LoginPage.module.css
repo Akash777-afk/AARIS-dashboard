@@ -1,38 +1,42 @@
 .loginPage {
-width: 100vw;
-height: auto;
+width: 100%;
+height: 100vh;
 position: relative;
-overflow: visible;
+overflow: hidden;
 text-align: left;
 font-size: 22px;
 font-family: 'Inter', sans-serif;}
 .greenMinimalistOliveOilOrg {
-position: absolute;
-top: 0px;
-left: 1px;
-border-radius: 22px;
-width: 100vw;
-height: auto;
-object-fit: cover;
-flex-shrink: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 .loginPageChild {
-position: absolute;
-top: -79px;
-left: 272px;
-filter: blur(321.9px);
-width: 1493px;
-height: 1183px;
-object-fit: contain;
-flex-shrink: 0;
+  position: absolute;
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  filter: blur(321.9px);
+  width: 90vw;
+  max-width: 1493px;
+  height: auto;
+  object-fit: contain;
 }
 .groupParent {
-position: absolute;
-top: 203px;
-left: 1659px;
-width: 675px;
-height: 945px;
-flex-shrink: 0;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%) scale(0.50);
+  transform-origin: center;
+  width: 675px;
+  height: 945px;
+  flex-shrink: 0;
 }
 .rectangleParent {
 position: absolute;

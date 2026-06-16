@@ -15,13 +15,13 @@ const LoginPage: FunctionComponent<LoginPageProps> = ({ onLogin }) => {  
     <div className={styles.loginPage}>
       <img
         className={styles.greenMinimalistOliveOilOrg}
-        src="/bgimage.png"
+        src="\bgimage2.png"
         alt=""
       />
 
       <img
         className={styles.loginPageChild}
-        src="/ic_outline-apple.svg.png"
+        src="\ic_outline-apple.svg.png"
         alt=""
       />
 
