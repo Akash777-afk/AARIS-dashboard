@@ -142,7 +142,7 @@ const LandingPage = () => {
       <div className={styles.groupParent}>
         <div className={styles.rectangleParent4}>
           <div className={styles.groupChild5} />
-          <img className={styles.frameIcon} src="/Frame 427319229.svg" alt="" />
+          <img className={styles.frameIcon} src="\Frame 427319230.svg" alt="" />
           <img className={styles.icroundRefreshIcon} src="/ic_round-refresh.svg" alt="" />
           <div className={styles.text9}>
             <div className={styles.sortBy}>Sort by...</div>
